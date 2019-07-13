@@ -1,0 +1,19 @@
+{
+    "bannerList":[
+        "https://goods4.juancdn.com/jas/190710/6/e/5d25ad96b6f8ea63170bc7aa_1080x418.jpg",
+        "https://goods4.juancdn.com/jas/190710/7/d/5d25a4bf33b0892b3772b965_1080x418.png",
+        "https://goods5.juancdn.com/jas/190710/8/9/5d255d71b6f8ea4016130784_1080x418.jpg"
+    ],
+    "figList":[
+        {
+            "dataone":[
+                "https://s2.juancdn.com/jas/190710/9/8/5d25540b33b08975682a3ab0_540x656.gif",
+                "https://goods7.juancdn.com/jas/190710/d/3/5d25542e33b089716e3fa280_540x328.png?iopcmd=convert&Q=85&dst=png",
+                "https://goods8.juancdn.com/jas/190710/f/3/5d2557b6b6f8ea3fb45c6f36_540x328.png?imageMogr2/quality/85!/format/png"
+            ],
+            "datatwo":"https://s2.juancdn.com/jas/190711/3/e/5d26956d33b0892eb67f7067_1080x214.gif",
+            "datathree":"https://goods7.juancdn.com/jas/180518/c/6/5afe2f0db6f8ea096f2bfb35_1080x138.png?iopcmd=convert&Q=85&dst=png"
+        }
+       
+    ]
+}

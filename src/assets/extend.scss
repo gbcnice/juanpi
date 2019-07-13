@@ -1,0 +1,8 @@
+$span:#333;
+$active:#ff464e;
+@mixin h($r){
+    height:$r;
+}
+@mixin w($r){
+    height:$r;
+}
