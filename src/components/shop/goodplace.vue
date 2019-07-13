@@ -12,7 +12,6 @@
 
 <script>
 import { Toast } from 'mint-ui';
-// import { InfiniteScroll } from 'mint-ui'
 export default {
     data() {
         return {

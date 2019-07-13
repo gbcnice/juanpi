@@ -6,7 +6,7 @@
     <div class="home-router">
       <router-link to="/home/shop"><i class="iconfont" :style="{color:iconfont===1?active:''}" @click="change(1)">&#xe502;</i><span :style="{color:iconfont===1?active:''}" >商城</span></router-link>
       <router-link to="/home/fenlei"><i class="iconfont" :style="{color:iconfont===2?active:''}" @click="change(2)">&#xe604;</i><span :style="{color:iconfont===2?active:''}" >分类</span></router-link>
-      <router-link to="/home/car"><i class="iconfont" :style="{color:iconfont===3?active:''}" @click="change(3)">&#xe504;</i><span :style="{color:iconfont===3?active:''}" >购物车</span></router-link>
+      <router-link to="/car"><i class="iconfont" :style="{color:iconfont===3?active:''}" @click="change(3)">&#xe504;</i><span :style="{color:iconfont===3?active:''}" >购物车</span></router-link>
       <router-link to="/home/my"><i class="iconfont" :style="{color:iconfont===4?active:''}" @click="change(4)">&#xe512;</i><span :style="{color:iconfont===4?active:''}" >我的</span></router-link>
     </div>
   </div>

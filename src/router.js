@@ -44,6 +44,11 @@ export default new Router({
       redirect:{name:'home'}
     },
     {
+      path: '/car',
+      name: 'car',
+      component: Car
+    },
+    {
       path: '/girldetail:id',
       component:girldetail
     },{
@@ -196,11 +201,6 @@ export default new Router({
           ]
          
         },
-        {
-          path: '/home/car',
-          name: 'car',
-          component: Car
-        }
       ]
     }
     
