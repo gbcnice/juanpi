@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Shop from './views/Shop.vue'
 import My from './views/My.vue'
+import denglu from './views/denglu'
 import Fenlei from './views/Fenlei.vue'
 import Car from './views/Car.vue'
 import Detail from './views/Detail.vue'
@@ -31,6 +32,7 @@ import girxq from './views/fenlei-luyou/girxq'
 import boyxq from './views/fenlei-luyou/boyxq'
 import Goodplace from './components/shop/goodplace.vue'
 import Goodone from './components/shop/goodone.vue'
+import { depthFrom } from '_array-flatten@2.1.2@array-flatten';
 // import Xiangqingyemian from './views/fenlei-luyou/Xiangqingyemian'
 
 Vue.use(Router)
@@ -44,9 +46,15 @@ export default new Router({
       redirect:{name:'home'}
     },
     {
+<<<<<<< HEAD
       path: '/car',
       name: 'car',
       component: Car
+=======
+      path:'/denglu',
+      name:'denglu',
+      component:denglu
+>>>>>>> 21534dd5788ec1aa16e4c191ac234fcdf1fa23d3
     },
     {
       path: '/girldetail:id',
@@ -114,17 +122,18 @@ export default new Router({
         {
           path: '/home/my',
           name: 'my',
-          component: My
+          component: My,
         },
         {
           path: '/home/fenlei',
           name: 'fenlei',
           component: Fenlei,
+          redirect:{name:'nvzhuang'},
           children:[
             {
               path: '/home/fenlei/chepin',
               name: 'chepin',
-              component: Chepin
+              component: Chepin,
             },
             {
               path: '/home/fenlei/jiadianshuma',
@@ -205,4 +214,5 @@ export default new Router({
     }
     
   ]
+  
 })
